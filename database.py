@@ -17,3 +17,4 @@ def get_all_cats():
     cats = session.query(Cat).all()
     return cats
 
+
